@@ -217,9 +217,9 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem; }
+  height: 52rem; }
   .card__side {
-    height: 50rem;
+    height: 52rem;
     transition: all 0.8s ease;
     font-size: 2rem;
     position: absolute;
@@ -266,19 +266,31 @@ body {
     top: 12rem;
     right: 2rem;
     width: 75%; }
-  .card .card__heading-span {
+  .card__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     text-align: center; }
-    .card .card__heading-span--1 {
+    .card__heading-span--1 {
       background-image: linear-gradient(to right, #ffb900, 0.8, #ff7730, 0.85); }
-    .card .card__heading-span--2 {
+    .card__heading-span--2 {
       background-image: linear-gradient(to right, #7ed56f 0.85, #28b485 0.85); }
-    .card .card__heading-span--3 {
+    .card__heading-span--3 {
       background-image: linear-gradient(to right, #2998ff 0.85, #5643fa 0.85); }
-  .card .card__details {
-    padding: 3rem; }
+  .card__details {
+    padding: 3rem;
+    margin-top: -4rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #777; }
 
 .row {
   max-width: 114rem;
