@@ -65,6 +65,8 @@
         background-blend-mode: screen;
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-left-radius: .3rem;
+        border-top-right-radius: .3rem;
 
         &--1 {
 
@@ -144,4 +146,46 @@
 
 
     }
+
+    // Back Side Styling
+
+    &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    &__price-box {
+        text-align: center;
+        color: $color-white;
+        margin-bottom: 8rem;
+
+        &--1 {
+            background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        }
+
+        &--2 {
+            background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        }
+
+        &--3 {
+            background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
+        }
+    }
+
+    &__price-only {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        margin-top: 2rem;
+    }
+
+    &__price-value {
+        font-size: 6rem;
+        font-weight: 100;
+
+    }
+
+
 }
