@@ -511,7 +511,8 @@ body {
     margin-top: 6rem;
     color: #f9f7f6;
     border-top: 1px solid #999;
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    float: right; }
 
 .row {
   max-width: 114rem;
@@ -584,7 +585,7 @@ body {
 
 .section-tours {
   background-color: #f9f7f6;
-  padding: 20rem 0 50rem 0;
+  padding: 20rem 0;
   margin-top: -15vh; }
 
 .section-stories {
